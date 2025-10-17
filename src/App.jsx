@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <NavbarComponents />
-      <div className="pt-5 mt-5 container">
+      <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/kelas" element={<Kelas />} />
